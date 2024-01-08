@@ -1,0 +1,39 @@
+*{
+    background-color: #000;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    list-style-type: none;
+    color: #d9d9d9;
+} 
+    
+a{
+    color: #d9d9d9;
+    margin-left: 10px;
+    
+}
+
+ul{
+    padding-left: 0;
+    margin-left: 10px;
+}
+
+li{
+    color: #d9d9d9;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+div{
+    font-size: 12px;
+}
+
+#content-container{
+    display: flex;
+    
+}
+
+#paragraph-content{
+    margin-left: 160px;
+}
