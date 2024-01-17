@@ -1,1 +1,2 @@
-# kerim.ca - Personal Website
+# kerim.ca
+A minimalist personal website 
