@@ -6,6 +6,10 @@
     text-rendering: optimizeLegibility;
     list-style-type: none;
     color: #d9d9d9;
+   
+    
+    
+
 } 
     
 a{
@@ -26,14 +30,27 @@ li{
 }
 
 div{
-    font-size: 12px;
+    font-size: 15px;
 }
 
-#content-container{
-    display: flex;
+#grid-container{
     
+    display: grid;
+    
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 80vh;
 }
 
-#paragraph-content{
-    margin-left: 160px;
+#header {
+    grid-column: span 2;    
+}
+
+#cv, #blog, #posts, #rps,#weather,#tictactoe,#website{
+    text-decoration: underline;
+}
+
+#box{
+    border: solid #d9d9d9;
+    height: 350px;
+    width: 700px;
 }
