@@ -45,7 +45,7 @@ div{
     grid-column: span 2;    
 }
 
-#cv, #blog, #posts, #rps,#weather,#tictactoe,#website{
+#cv, #blog, #posts, #rps,#weather,#tictactoe,#website, #epsylla{
     text-decoration: underline;
 }
 
