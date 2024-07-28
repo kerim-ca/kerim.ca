@@ -54,3 +54,13 @@ div{
     height: 350px;
     width: 700px;
 }
+
+::-moz-selection { 
+    color: black;
+    background: white;
+}
+  
+::selection {
+    color: black;
+    background: white;
+}
