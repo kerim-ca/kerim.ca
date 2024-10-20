@@ -3,36 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerim Kadioglu | Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Kerim Kadioglu | Slideshow</title>
     <link rel="icon" href="bluemarble.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="toggleMenu.js"></script>
 </head>
 <body>
-
-
     <div id="grid-container">
-
-    <header id="header">
-        <h1><a href="/">kerim kadioglu</a></h1>
-    </header>
-    <aside id="sidebar">
-        <ul>
-            <li><a href="about.html">about</a></li>
-            <li><a href="projects.html">projects</a></li>
-        </ul>
-        
-        
-    </aside>
-    <main id="content">
-        <ul>
-            <li>
-                <a id="epsylla" target="_blank" href="https://epsylla.com">epsylla</a>
-                <a  target="_blank" href="https://github.com/kerim-ca/epsylla-1.0"><i style="font-size:24px" class="fa">&#xf09b;</i></a><br>
-                <p> &emsp; Online learning optimization platform and tool.</p>
-            </li>
-        </ul>
-    </main>
+        <header id="header">
+            <h1><a href="/">kerim kadioglu</a></h1>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </header>
+        <aside id="sidebar">
+            <ul id="sidebar-menu">
+                <li><a href="about.html">about</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="slideshow.html">slideshow</a></li>
+            </ul>
+        </aside>
+        <main id="content">
+            <ul id="project-list">
+                <li>
+                    <a id="epsylla" target="_blank" href="https://epsylla.com">epsylla</a>
+                    <a  target="_blank" href="https://github.com/kerim-ca/epsylla-1.0"><i style="font-size:24px" class="fa">&#xf09b;</i></a><br>
+                    <p> &emsp; Online learning optimization platform and tool.</p>
+                </li>
+            </ul>
+        </main>
     </div>
     
 </body>

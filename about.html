@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Kerim Kadioglu | About</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Kerim Kadioglu | Slideshow</title>
     <link rel="icon" href="bluemarble.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="toggleMenu.js"></script>
 </head>
 <body>
-
     <div id="grid-container">
-
         <header id="header">
             <h1><a href="/">kerim kadioglu</a></h1>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </header>
         <aside id="sidebar">
-            <ul>
+            <ul id="sidebar-menu">
                 <li><a href="about.html">about</a></li>
                 <li><a href="projects.html">projects</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="slideshow.html">slideshow</a></li>
             </ul>
-            
-            
         </aside>
         <main id="content">
             <p id="about-paragraph">
-                Undergraduate Computer Science Major at SUNY Brockport.<br><br>
+                Computer Science Major at SUNY Brockport.<br><br>
                 Interested in Applied Sciences.
             </p>
             <p id="platform-container">
-                <a href="https://www.linkedin.com/in/kerim-kadioglu/"><i style="font-size:24px" class="fa">&#xf08c;</i></a>
-                <a href="https://github.com/kerim-ca"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
+                <a id="linkedin-link" href="https://www.linkedin.com/in/kerim-kadioglu/"><i style="font-size:24px" class="fa">&#xf08c;</i></a>
+                <a id="github-link" href="https://github.com/kerim-ca"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
                 <a id="cv" href="resume.pdf">CV</a>
             </p>
             <div id="email-div">kerimk0925[at]gmail[dot]com</div>
-            
         </main>
     </div>
+    
 </body>
 </html>
