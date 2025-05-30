@@ -203,3 +203,25 @@ p {
     }
 }
 
+/* Add these styles to your style.css */
+
+button.hamburger {
+    background-color: transparent; /* Remove default button background */
+    border: none;                /* Remove default button border */
+    padding: 0;                  /* Remove default button padding */
+    font-family: inherit;        /* Use the font from the parent */
+    color: inherit;              /* Use the text color from the parent */
+    text-align: inherit;         /* Align text like parent, if any text were there */
+    cursor: pointer;             /* You already have this on .hamburger, but good to ensure */
+    
+    /* Ensure it still behaves like before in terms of display */
+    /* display: block; was set in your media query, this ensures it remains when active */
+}
+
+/* Your existing styles for the lines inside the hamburger should still work fine: */
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #d9d9d9; /* */
+    margin: 5px 0; /* */
+}

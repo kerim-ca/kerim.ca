@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="bluemarble.ico">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <script src="toggleMenu.js"></script>
+    <script src="toggleMenu.js" defer></script>
 </head>
 <body>
 
@@ -16,11 +16,11 @@
 
     <header id="header">
         <h1><a href="/">kerim kadioglu</a></h1>
-        <div class="hamburger" onclick="toggleMenu()">
+        <button class="hamburger" onclick="toggleMenu()" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="sidebar">
             <div></div>
             <div></div>
             <div></div>
-        </div>
+        </button>
     </header>
 
  <aside id="sidebar">
