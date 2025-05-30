@@ -225,3 +225,8 @@ button.hamburger {
     background-color: #d9d9d9; /* */
     margin: 5px 0; /* */
 }
+
+/* Add to style.css */
+main#content article {
+    margin-bottom: 2em; /* Adjust value as needed, 1em is roughly one line height */
+}
