@@ -1,0 +1,15 @@
+{
+  "name": "kerim-ca-1",
+  "version": "1.0.0",
+  "description": "A minimalist personal website",
+  "main": "blogpost-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^15.0.12"
+  }
+}
